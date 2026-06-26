@@ -67,7 +67,7 @@ reaches a print/adjust decision. Each completed check is one verified operation.
 
 ## Open / to confirm
 
-- Final product name and branding.
+- Logo / full visual identity (name and teal+indigo direction now set).
 - Supported model file formats and any size/complexity limits.
 - Typical print frequency per maker (used for impact projections — currently an
   assumption).
