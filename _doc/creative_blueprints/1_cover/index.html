@@ -1,0 +1,41 @@
+<style>
+  .mode-landscape .sl-cover { flex-direction: row; }
+  .mode-portrait .sl-cover { flex-direction: column; }
+  .mode-portrait .sl-visual { width: 100%; min-height: 38%; }
+  .mode-landscape .sl-visual { width: 42%; }
+</style>
+<section class="w-full h-full overflow-auto bg-white">
+  <div class="sl-cover flex w-full h-full">
+    <!-- Left: editorial content -->
+    <div class="flex flex-col justify-between p-12" style="flex:1 1 auto;">
+      <div class="flex items-center gap-3">
+        <div class="h-8 w-8 rounded-lg" style="background:linear-gradient(135deg,#0ea5b7,#4f46e5);"></div>
+        <span class="text-sm font-semibold tracking-widest uppercase" style="color:#4f46e5;">TrueScale</span>
+        <span class="text-xs font-medium text-slate-400">· working name</span>
+      </div>
+
+      <div class="mt-6">
+        <p class="text-sm font-semibold tracking-widest uppercase text-slate-400 mb-4">AR scale preview for 3D printing</p>
+        <h1 class="font-extrabold leading-[1.02] text-slate-900" style="font-size:clamp(2.5rem,5.2vw,4.25rem);">
+          See it<br/>before you<br/><span style="color:#0ea5b7;">print it.</span>
+        </h1>
+        <p class="mt-6 text-lg text-slate-600 max-w-md">
+          Point your phone and watch your model stand at true scale in your real
+          space — so the print matches your expectations the first time.
+        </p>
+      </div>
+
+      <div class="text-slate-500 text-sm">
+        <data-attribution />
+      </div>
+    </div>
+
+    <!-- Right: visual anchor -->
+    <div class="sl-visual relative overflow-hidden">
+      <img class="absolute inset-0 w-full h-full object-cover"
+           src="https://api.qb-deck.quantumbyte.ai/common/image-generation?prompt=A%20glowing%20holographic%203D%20printed%20model%20floating%20at%20true%20scale%20on%20a%20wooden%20desk%2C%20viewed%20through%20a%20smartphone%20held%20up%20in%20foreground%2C%20cinematic%20teal%20and%20indigo%20light%2C%20clean%20modern%20maker%20studio%2C%20premium%20product%20photography"
+           alt="Phone showing a 3D model at true scale on a desk"/>
+      <div class="absolute inset-0" style="background:linear-gradient(90deg,rgba(255,255,255,0.55),rgba(255,255,255,0) 30%);"></div>
+    </div>
+  </div>
+</section>
