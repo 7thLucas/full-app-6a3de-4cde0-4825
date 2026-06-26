@@ -1,6 +1,6 @@
 # Product Overview
 
-> Working name: **TrueScale** (provisional — branding not yet finalized).
+> Product name: **TrueScale** (set as the product title; renameable later).
 > Single source of truth for the product. Update when product facts change.
 
 ## One-line
@@ -8,6 +8,11 @@
 A phone-camera AR tool that lets 3D-printing makers preview a model at its **true print
 scale** in their real space — before committing filament and machine time — so the
 printed result matches expectations the first time.
+
+**Tagline (official):** "See your 3D model at true print scale in your real space,
+through your phone camera — before you waste a gram of filament."
+
+**Brand direction:** maker-friendly and precise; teal + indigo palette (logo TBD).
 
 ## The user
 
