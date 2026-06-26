@@ -1,0 +1,56 @@
+<style>
+  .mode-landscape .sl-found { flex-direction: row; }
+  .mode-portrait .sl-found { flex-direction: column; }
+  .mode-landscape .sl-foundvisual { width: 34%; }
+  .mode-portrait .sl-foundvisual { width: 100%; min-height: 30%; }
+</style>
+<section class="w-full h-full overflow-auto bg-white">
+  <div class="sl-found flex w-full h-full">
+    <!-- Narrative zones -->
+    <div class="flex flex-col justify-center gap-6 p-12" style="flex:1 1 auto;">
+      <p class="text-sm font-semibold tracking-widest uppercase" style="color:#4f46e5;">The Foundation</p>
+
+      <div class="grid grid-cols-2 gap-6" style="grid-template-columns:1fr 1fr;">
+        <!-- Problem -->
+        <div class="rounded-2xl p-7" style="background:#fff1f2;border:1px solid #fecdd3;">
+          <h2 class="text-xl font-bold text-rose-700 mb-3">The Problem</h2>
+          <p class="text-slate-700 leading-relaxed">
+            The model looks right on screen — then the print comes out the wrong size.
+            For a newer maker that miss is common, and it isn't free:
+          </p>
+          <ul class="mt-4 space-y-2 text-slate-700 text-sm">
+            <li>• Wasted <span class="font-semibold">filament</span> on a print you can't use</li>
+            <li>• Hours of <span class="font-semibold">machine time</span> gone</li>
+            <li>• You only find out <span class="font-semibold">after</span> it's printed</li>
+          </ul>
+        </div>
+
+        <!-- Solution -->
+        <div class="rounded-2xl p-7" style="background:#ecfeff;border:1px solid #a5f3fc;">
+          <h2 class="text-xl font-bold" style="color:#0e7490;">The Solution</h2>
+          <p class="text-slate-700 leading-relaxed mt-1">
+            Check scale in the real world <span class="font-semibold">before</span> you print.
+          </p>
+          <ul class="mt-4 space-y-2 text-slate-700 text-sm">
+            <li>• Upload your model</li>
+            <li>• Set its real print dimensions</li>
+            <li>• See it at <span class="font-semibold">true 1:1 scale</span> through your phone camera</li>
+            <li>• Decide: does it fit, does it look right?</li>
+          </ul>
+        </div>
+      </div>
+
+      <p class="text-slate-600 max-w-2xl">
+        TrueScale closes the gap between the screen and the shelf — markerless camera AR,
+        no extra hardware, just the phone in your pocket.
+      </p>
+    </div>
+
+    <!-- Supporting visual -->
+    <div class="sl-foundvisual relative overflow-hidden">
+      <img class="absolute inset-0 w-full h-full object-cover"
+           src="https://api.qb-deck.quantumbyte.ai/common/image-generation?prompt=Close%20up%20of%20a%20hand%20holding%20a%20smartphone%20showing%20a%20translucent%203D%20model%20overlaid%20on%20a%20real%20desk%20at%20actual%20size%2C%20soft%20natural%20light%2C%20teal%20accent%20glow%2C%20clean%20minimal%20workshop%2C%20realistic"
+           alt="Phone previewing a model at real size on a desk"/>
+    </div>
+  </div>
+</section>
